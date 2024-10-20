@@ -44,7 +44,7 @@ export const Banner = () => {
          <Container>
             <Row className="align-items-center">
                 <Col xs={12} md={6} xl={7}>
-                <span className="tagline">Bem-Vindo ao meu Portfolio</span>
+                <span className="tagline">Seja Bem-Vindo ao nosso Portfolio!</span>
                 <h1>{'Olá! Nossa Agência faz '}<span className="wrap">{text}</span></h1>
                 <p>AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA!</p>
                 <button onClick={() => console.log('Connect')}> Vamos nos Conectar! <ArrowRightCircle size={25} /></button>
