@@ -46,7 +46,7 @@ export const Banner = () => {
                 <Col xs={12} md={6} xl={7}>
                 <span className="tagline">Seja Bem-Vindo ao nosso Portfolio!</span>
                 <h1>{'Olá! Nossa Agência faz '}<span className="wrap">{text}</span></h1>
-                <p>AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA!</p>
+                <p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </p>
                 <button onClick={() => console.log('Connect')}> Vamos nos Conectar! <ArrowRightCircle size={25} /></button>
                 </Col>
                 <Col xs={12} md={6} xl={5}>
