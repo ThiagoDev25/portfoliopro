@@ -18,7 +18,7 @@ export const Footer = () => {
                         <div className="social-icon">
                             <a href=""><img src={navIcon1} /></a>
                             <a href=""><img src={navIcon2} /></a>
-                            <a href=""><img src={navIcon3} /></a>
+                            <a href="https://www.instagram.com/cybermarketingoficial"><img src={navIcon3} alt="Instagram"/></a>
                         </div>
                         <p>CopyRight 2024, Todos os direitos reservados </p>
                     </Col>

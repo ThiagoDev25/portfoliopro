@@ -34,9 +34,9 @@ export const Skills = () => {
                     <Col>
                         <div className="skill-bx">
                             <h2>
-                                Skills
+                                Serviços
                             </h2>
-                            <p>AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA!<br></br> AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA! AD ASTRA!</p>
+                            <p>Somos uma Agência especializada em serviços de Marketing e TI.<br/>Formada por Thiago Afonso "Gestor de Tráfego e Desenvolvedor Full-Stack" e<br/> Diego Afonso (Designer e Social Media) </p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider" >
                                 <div className="item">
                                     <img src={meter1} alt="Image" />
