@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { ArrowRightCircle } from "react-bootstrap-icons";
 import  contactImg  from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -60,8 +61,8 @@ export const Contact =  () => {
                 <TrackVisibility>
                   {({ isVisible }) =>
                     <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <h2>Get In Touch</h2>
-                    <form onSubmit={handleSubmit}>
+                    <h2>Agende uma consulta!</h2>
+                    {/* <form onSubmit={handleSubmit}>
                       <Row>
                         <Col size={12} sm={6} className="px-1">
                           <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
@@ -86,7 +87,8 @@ export const Contact =  () => {
                           </Col>
                         }
                       </Row>
-                    </form>
+                    </form> */}
+                    <button onClick={() => window.location.href='https://wa.me/5561993143694?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20reuni%C3%A3o!'}> <span style={{ color: "tomato" }}>Otimizar meus Resultados!</span> <ArrowRightCircle size={25} /></button>
                   </div>}
                 </TrackVisibility>
               </Col>

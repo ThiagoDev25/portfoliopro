@@ -8,7 +8,7 @@ import TrackVisibility from "react-on-screen";
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = [ "Design", "Tráfego Pago", "Landing Page", "Soluções de T.I" ];
+    const toRotate = [ "Design", "Gestão de Tráfego", "Landing Page", "Soluções de T.I" ];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100); 
     const period = 2000;
@@ -49,10 +49,10 @@ export const Banner = () => {
                 <TrackVisibility>
                 {({ isVisible }) => 
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                    <span className="tagline">Seja Bem-Vindo ao nosso Portfolio!</span>
-                    <h1>{'Olá! Nossa Agência faz '}<span className="wrap">{text}</span></h1>
+                    <span className="tagline">Seja Bem-Vindo ao Portfolio CyberMarketing!</span>
+                    <h1>{'Nossa Agência faz '}<span className="wrap">{text}</span></h1>
                     <p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     </p>
-                    <button onClick={() => console.log('Connect')}> Vamos nos Conectar! <ArrowRightCircle size={25} /></button>
+                    <button onClick={() => window.location.href='https://wa.me/5561993143694?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20reuni%C3%A3o!'}> Vamos nos Conectar! <ArrowRightCircle size={25} /></button>
                 </div>} 
                 </TrackVisibility>
                 </Col>
