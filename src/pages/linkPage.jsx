@@ -17,7 +17,7 @@ const LinkPage = () => {
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
                 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-                <title>@meunome</title>
+                <title>@euthiagoafonso</title>
                 <style>{`
 *{
     margin: 0;
@@ -140,7 +140,7 @@ footer a.btn-footer{
                 </button>
             </a>
 
-            <a href="https://github.com/ThiagoDev25" target="_blank" className="link">
+            <a href="https://wa.me/5561993143694?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20reuni%C3%A3o!" target="_blank" className="link">
                 <button className="degrade">
                     <span>Contato</span>
                     <i class="bi bi-whatsapp"></i>
